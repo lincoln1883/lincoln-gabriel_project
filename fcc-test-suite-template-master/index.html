@@ -10,12 +10,13 @@
     <h1 id="title" >Microverse Form</h1>
     <p id="description">This is a form page for the Microverse trials.</p>
     <form id= "survey-form" action="" method="post">
-      <label for="name">Enter your name</label><br>
-      <input type="text" id="name"><br>
-      <label for="email">Enter your email</label><br>
-      <input type="text" id="email"><br>
+      <label id="name-label" for="name">Enter your name</label><br>
+      <input  type="text" id="name" required placeholder="Name"><br>
+      <label id="email-label" for="email">Enter your email</label><br>
+      <input type="email" id="email" required placeholder="Email"><br>
+      <label id="number-label" for="number" >Number</label><br>
+      <input id="number" type="number" name="number" max="100" min="1" placeholder="Number"><br>
       <input type="submit" value="Submit">
-
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
