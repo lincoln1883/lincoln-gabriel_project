@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Our Survey</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <h1 id="title" >Microverse Form</h1>
-    <p id="description">This is a form page for the Microverse trials.</p>
-    <form id= "survey-form" action="" method="post">
-      <label id="name-label" for="name">Enter your name</label><br>
-      <input  type="text" id="name" required placeholder="Name"><br>
-      <label id="email-label" for="email">Enter your email</label><br>
-      <input type="email" id="email" required placeholder="Email"><br>
-      <label id="number-label" for="number" >Number</label><br>
-      <input id="number" type="number" name="number" max="100" min="1" placeholder="Number"><br>
-      <input type="submit" value="Submit">
-    </form>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script  src="js/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Our Survey</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="title">Microverse Form</h1>
+  <p id="description">This is a form page for the Microverse trials.</p>
+  <form id="survey-form" action="" method="post">
+    <label id="name-label" for="name">Enter your name</label><br>
+    <input type="text" id="name" required placeholder="Name"><br>
+    <label id="email-label" for="email">Enter your email</label><br>
+    <input type="email" id="email" required placeholder="Email"><br>
+    <label id="number-label" for="number">Number</label><br>
+    <input id="number" type="number" name="number" max="100" min="1" placeholder="Number"><br>
+  
+    <br>
+    <label for="cars">Choose a your Lorem ipsum dolor sit:</label>
+    <select id="dropdown">
+      <option value="Lorem">Lorem </option>
+      <option value="ipsum">ipsum </option>
+      <option value="dolor">dolor </option>
+      <option value="sit">sit </option>
+    </select>
+    
+    <p>Please select your favorite color:</p>
+      <input type="radio" id="red" name="colors" value="Attribute">
+      <label for="red">Red</label><br>
+      
+      <input type="radio" id="green" name="colors" value="Attribute">
+      <label for="green">Green</label><br>
+      
+      <input type="radio" id="blue" name="colors" value="Attribute">
+      <label for="blue">Blue</label>
+    
+      <br>  
+      <p>Select your favorite coding lenguage:</p>
+      <input type="checkbox" id="Pyton" name="vehicle1" value="attribute">
+      <label for="Pyton">Pyton</label><br>
+      <input type="checkbox" id="Java" name="Java" value="attribute">
+      <label for="Java">Java</label><br>
+
+      <input type="checkbox" id="JavaScript" name="JavaScript" value="attribute">
+      <label for="JavaScript">JavaScript</label><br>
+      <p><label for="text-area">Please write something in the text area:</label></p>
+      <textarea rows="4" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </textarea>
+      <br>
+      <br>
+      <input id ="submit" type="submit" value="Submit">
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
